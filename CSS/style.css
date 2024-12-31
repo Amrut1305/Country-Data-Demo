@@ -1,0 +1,129 @@
+
+a{
+    display: inline-block;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+.header{
+    background-color: #f4d292;
+}
+#searchControl{
+    background-color: #ffa500;
+    color: aliceblue;
+}
+
+#searchControl::placeholder{
+    color: aliceblue;
+}
+#searchControl:is(:hover,:active,:focus){
+    border: 0px;
+    outline: 0px;
+}
+#sortName, #sortCapital, #sortPopulation{
+    background-color: #ffa500;
+    color: white;
+    width: 100%;
+}
+.showData .card{
+    /* background-color: #efe1c7; */
+    box-shadow: 1px 1px 20px 1px;
+}
+.showData .card img{
+    width: 8rem;
+    box-shadow: 1px 1px 20px 1px;
+    margin-bottom: 2rem;
+}
+.showData .card span{
+    color: orangered;
+}
+
+.graphIcon{
+    font-size: 2.5rem;
+    color: #ffa500;
+}
+.priHeading{
+    font-size: 0.9rem;
+    color: #ffa500;
+}
+.secHeading{
+    font-size: 0.8rem;
+    color: #ffa500;
+}
+.para{
+    font-size: 0.8rem;
+    color: #ffa500;
+}
+
+.graphIcon a{
+    display: inline-block;
+    color: #ffa500;
+}
+#graphCountry li img{
+    width: 1.2rem;
+}
+#graphCountry li{
+    list-style: none;
+    display: inline-block;
+    text-align: right;
+    background-color: #ffa500;
+    color: aliceblue;
+    margin-bottom: 0.5rem;
+    border-radius: .5rem;
+    width: 100%;
+    line-height: 1.5rem;
+    padding: 0.8rem;
+}
+#graphData ol{
+    margin: 0 auto;
+}
+#graphData li{
+    background-color: #ffa500;
+    color: aliceblue;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    padding: 0;
+    display: inline-block;
+    line-height: 1.5rem;
+}
+#graphData li span{
+    background-color: navy;
+    color: aliceblue;
+    display: inline-block;
+    height: 100%;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+}
+.footer{
+    background-color: #f4d292;
+}
+#graphData{
+    margin-bottom: 2rem;
+}
+
+.mainHeading{
+    font-size: 3rem;
+}
+.footer .mainHeading{
+    font-size: 2rem;
+}
+.brandIcon li{
+    padding-right: 4rem;    
+}
+.brandIcon i{
+    font-size: 2rem;
+    color: #535050;
+    transition: all 0.5s ease-in;
+}
+.brandIcon li:last-child{
+    padding-right: 2rem;
+}
+.brandIcon li:is(:hover,:active,:focus) i{
+    transform: rotate(360deg);
+}
+.footerNote h6{
+    color: #535050;
+}
